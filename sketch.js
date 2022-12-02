@@ -45,13 +45,13 @@ function setup() {
 	
 	
 	
-	ball2 = Bodies.circle(400, 180, 80, ball2_C);
+	ball2 = Bodies.circle(400, 180, 40, ball2_C);
 	World.add(world, ball2);
 	
 
 
 	
-	ball3 = Bodies.circle(120, 180, 80, ball3_C);
+	ball3 = Bodies.circle(120, 180, 40, ball3_C);
 	World.add(world, ball3);
 	
 
@@ -84,12 +84,12 @@ function draw() {
 
 	push()
 	fill(88,29,29)
-	ellipse(ball2.position.x, ball2.position.y, 80);
+	ellipse(ball2.position.x, ball2.position.y, 80, 80);
 	pop()
 
 	push()
 	fill(88,29,29)
-	ellipse(ball3.position.x, ball3.position.y, 80);
+	ellipse(ball3.position.x, ball3.position.y, 80, 80);
 	pop()
 
 	push()
